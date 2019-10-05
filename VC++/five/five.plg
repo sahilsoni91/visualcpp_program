@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: five - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/five.res" /d "_DEBUG" /d "_AFXDLL" "F:\College\Practicals\Fifth Semester\RAD File\five\five.rc"" 
+Creating temporary file "C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSPF7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/five.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\College\Practicals\Fifth Semester\RAD File\five\five.cpp"
+"F:\College\Practicals\Fifth Semester\RAD File\five\MainFrm.cpp"
+"F:\College\Practicals\Fifth Semester\RAD File\five\fiveDoc.cpp"
+"F:\College\Practicals\Fifth Semester\RAD File\five\fiveView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSPF7.tmp" 
+Creating temporary file "C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/five.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\College\Practicals\Fifth Semester\RAD File\five\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSPF8.tmp" 
+Creating temporary file "C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSPF9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/five.pdb" /debug /machine:I386 /out:"Debug/five.exe" /pdbtype:sept 
+".\Debug\five.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\fiveDoc.obj"
+".\Debug\fiveView.obj"
+".\Debug\five.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSPF9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+five.cpp
+MainFrm.cpp
+fiveDoc.cpp
+fiveView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+five.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: six - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/six.res" /d "_DEBUG" /d "_AFXDLL" "F:\College\Practicals\Fifth Semester\RAD File\six\six.rc"" 
+Creating temporary file "C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSP10D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/six.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\College\Practicals\Fifth Semester\RAD File\six\six.cpp"
+"F:\College\Practicals\Fifth Semester\RAD File\six\MainFrm.cpp"
+"F:\College\Practicals\Fifth Semester\RAD File\six\sixDoc.cpp"
+"F:\College\Practicals\Fifth Semester\RAD File\six\sixView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSP10D.tmp" 
+Creating temporary file "C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSP10E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/six.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\College\Practicals\Fifth Semester\RAD File\six\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAHILS~1\LOCALS~1\Temp\RSP10E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/six.pdb" /debug /machine:I386 /out:"Debug/six.exe" /pdbtype:sept  ".\Debug\six.obj" ".\Debug\StdAfx.obj" ".\Debug\MainFrm.obj" ".\Debug\sixDoc.obj" ".\Debug\sixView.obj" ".\Debug\six.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+six.cpp
+MainFrm.cpp
+sixDoc.cpp
+sixView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+six.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

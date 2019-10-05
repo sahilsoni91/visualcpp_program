@@ -1,0 +1,69 @@
+// eleven.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (eleven.tlb) that will become a resource in
+// eleven.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(4CC1794D-40BF-484A-83A1-F869A95F4791), version(1.0),
+  helpfile("eleven.hlp"),
+  helpstring("eleven ActiveX Control module"),
+  control ]
+library ELEVENLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CElevenCtrl
+
+	[ uuid(FDC30ADE-BEAF-4039-9DD9-886EF307E5C1),
+	  helpstring("Dispatch interface for Eleven Control"), hidden ]
+	dispinterface _DEleven
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CElevenCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CElevenCtrl)
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CElevenCtrl
+
+	[ uuid(388F8D80-5E41-4CF2-9DCB-2915645A3860),
+	  helpstring("Event interface for Eleven Control") ]
+	dispinterface _DElevenEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CElevenCtrl)
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CElevenCtrl
+
+	[ uuid(1120F28D-5BD7-4834-8555-EC777C89805E),
+	  helpstring("Eleven Control"), control ]
+	coclass Eleven
+	{
+		[default] dispinterface _DEleven;
+		[default, source] dispinterface _DElevenEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
